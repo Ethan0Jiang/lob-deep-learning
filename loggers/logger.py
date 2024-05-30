@@ -5,7 +5,8 @@ from datetime import datetime
 
 
 def generate_id(name):
-    init_time = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+    # init_time = datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+    init_time = 1
     model_id = f'{name}_{init_time}'
 
     root_path = sys.path[0]
